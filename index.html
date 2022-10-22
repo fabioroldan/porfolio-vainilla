@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="icons/icons.css">
+  <script src="./scripts/$modal.js" defer></script>
+  <script src="./scripts/main.js" type="module"></script>
+</head>
+
+<body class="texture1">
+  <div class="page-container">
+    <header id="header" class="header">
+      <nav class="nav">
+        <div class="logo-container">
+          <img class="logo" src="/images/argentina-programa-logo.svg" alt="Logo Argentina Programa" srcset="">
+          <img class="logo" src="/images/yoprogramo-logo.svg" alt="Logo YoProgramo" srcset="">
+          <button class="button" id="download-json" hidden>Descargar Json</button>
+          <button class="button secondary" id="reset" hidden>Reset Portfolio</button>
+        </div>
+        <div class="f-start">
+          <div id="redes-sociales"> {redes sociales} </div>
+          <button class="button">Login</button>
+        </div>
+      </nav>
+      <div class="hero-image">
+        <img id="img-cab" alt="Imagen de cabecera" srcset="">
+      </div>
+    </header>
+    <main class="main">
+      <div id="acerca-de">
+        <div>
+          <img class="profile-img" id="img-perfil" alt="Imagen de perfil" srcset="">
+          <h1 id="nombre">{ nombre y apellido }</h1>
+          <h3 id="ocupacion">Full Stack Developer Jr</h3>
+          <p> <span id="fecha">{ fecha }</span> <span id="nacionalidad">{nacionalidad}</span></p>
+          <p> <span id="mail">{ mail }</span></p>
+        </div>
+        <div>
+          <h2>Acerca de mi</h2>
+          <p id="sobre-mi"> { Informacion profesional resumida } </p>
+        </div>
+      </div>
+      <div id="experiencia"> { experiencia} </div>
+      <div id="estudios"> { estudios } </div>
+      <div id="habilidades"> { habilidades} </div>
+      <div id="idiomas"> { idiomas } </div>
+      <div id="proyectos"> { proyectos} </div>
+    </main>
+    <footer class="footer">
+      Este es un footer
+    </footer>
+  </div>
+  <div id="modal-ctn"> </div>
+</body>
+
+</html>

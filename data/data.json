@@ -1,0 +1,158 @@
+{
+  "infoBasica": [
+    {
+      "id": 0,
+      "nombre": "Nombre",
+      "apellido": "Apellido",
+      "fechaDeNacimiento": "1980-01-01",
+      "nacionalidad": "Argentino",
+      "mail": "example@mail.com",
+      "sobreMi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi quibusdam et quasi placeat debitis praesentium illo molestias earum temporibus, eligendi, corrupti necessitatibus voluptatum minima! Saepe nobis recusandae suscipit cupiditate.",
+      "ocupacion": "Full Stack Developer Jr",
+      "imgCabecera": "./images/banner.webp",
+      "imgPerfil": "./images/profile.svg",
+      "redesSociales": [
+        "https://www.linkedin.com/in/fabio-roldan/",
+        "https://twitter.com/fabioroldan",
+        "https://github.com/fabioroldan"
+      ],
+      "direccion": {
+        "calle": "Calle",
+        "ciudad": "Ciudad",
+        "provincia": "Provincia",
+        "pais": "Pais"
+      }
+    }
+  ],
+  "experiencias": [
+    {
+      "id": 1,
+      "posicion": "Título del puesto",
+      "institucion": "Institución",
+      "img": "images/logo-generic.svg",
+      "modo": "modo",
+      "inicio": "1970-01-01",
+      "fin": "1980-01-01",
+      "tiempoTranscurrido": "Tiempo transcurrido",
+      "lugar": "Lugar",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi quibusdam et quasi placeat debitis praesentium illo molestias earum temporibus, eligendi, corrupti necessitatibus voluptatum minima! Saepe nobis recusandae suscipit cupiditate."
+    },
+    {
+      "id": 2,
+      "posicion": "Título del puesto",
+      "institucion": "institución",
+      "img": "images/logo-generic2.svg",
+      "modo": "modo",
+      "inicio": "1970-01-01",
+      "fin": "1980-01-01",
+      "tiempoTranscurrido": "tiempo transcurrido",
+      "lugar": "Lugar",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi quibusdam et quasi placeat debitis praesentium illo molestias earum temporibus, eligendi, corrupti necessitatibus voluptatum minima! Saepe nobis recusandae suscipit cupiditate."
+    }
+  ],
+  "estudios": [
+    {
+      "id": 1,
+      "institucion": "Institución",
+      "titulo": "Desarrollador Full Stack",
+      "img": "/images/logo-generic3.svg",
+      "promedio": "10",
+      "inicio": "2002",
+      "fin": "2008"
+    },
+    {
+      "id": 2,
+      "institucion": "Institución",
+      "titulo": "Curso",
+      "img": "/images/logo-generic4.svg",
+      "promedio": "10",
+      "inicio": "2002",
+      "fin": "2008"
+    }
+  ],
+  "habilidades": [
+    {
+      "id": 1,
+      "nombre": "HTML",
+      "porcentaje": 70
+    },
+    {
+      "id": 2,
+      "nombre": "CSS",
+      "porcentaje": 50
+    },
+    {
+      "id": 3,
+      "nombre": "JS",
+      "porcentaje": 60
+    },
+    {
+      "id": 4,
+      "nombre": "JAVA",
+      "porcentaje": 50
+    },
+    {
+      "id": 5,
+      "nombre": "SPRING",
+      "porcentaje": 70
+    },
+    {
+      "id": 6,
+      "nombre": "SQL",
+      "porcentaje": 70
+    },
+    {
+      "id": 7,
+      "nombre": "ANGULAR",
+      "porcentaje": 70
+    },
+    {
+      "id": 8,
+      "nombre": "BOOTSTRAP",
+      "porcentaje": 90
+    }
+  ],
+  "idiomas": [
+    {
+      "id": 1,
+      "nombre": "Inglés",
+      "porcentaje": 70
+    },
+    {
+      "id": 2,
+      "nombre": "Español",
+      "porcentaje": 95
+    },
+    {
+      "id": 2,
+      "nombre": "Portugués",
+      "porcentaje": 30
+    }
+  ],
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Portfolio - Argentina Programa",
+      "anio": "2022",
+      "img": "/images/project-thumbnail.jpg",
+      "url": "https://devhumor.com/",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi quibusdam et quasi placeat debitis praesentium illo molestias earum temporibus, eligendi, corrupti necessitatibus voluptatum minima! Saepe nobis recusandae suscipit cupiditate."
+    },
+    {
+      "id": 2,
+      "nombre": "Portfolio - Argentina Programa",
+      "anio": "2022",
+      "img": "/images/project-thumbnail2.jpg",
+      "url": "https://devhumor.com/",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi quibusdam et quasi placeat debitis praesentium illo molestias earum temporibus, eligendi, corrupti necessitatibus voluptatum minima! Saepe nobis recusandae suscipit cupiditate."
+    },
+    {
+      "id": 3,
+      "nombre": "Portfolio - Argentina Programa",
+      "anio": "2022",
+      "img": "/images/project-thumbnail3.jpg",
+      "url": "https://devhumor.com/",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi quibusdam et quasi placeat debitis praesentium illo molestias earum temporibus, eligendi, corrupti necessitatibus voluptatum minima! Saepe nobis recusandae suscipit cupiditate."
+    }
+  ]
+}

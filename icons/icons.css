@@ -1,0 +1,97 @@
+ .icon {
+   display: inline-flex;
+   width: 1.2rem;
+   aspect-ratio: 1;
+   background-color: black;
+   -webkit-mask-size: 100%;
+   mask-size: 100%;
+   -webkit-mask-position: center;
+   mask-position: center;
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+ }
+
+ .icon.i-facebook {
+   -webkit-mask-image: url(icon-facebook.svg);
+   mask-image: url(icon-facebook.svg);
+ }
+
+ .icon.i-github {
+   -webkit-mask-image: url(icon-github.svg);
+   mask-image: url(icon-github.svg);
+ }
+
+ .icon.i-instagram {
+   -webkit-mask-image: url(icon-instagram.svg);
+   mask-image: url(icon-instagram.svg);
+ }
+
+ .icon.i-linkedin {
+   -webkit-mask-image: url(icon-linkedin.svg);
+   mask-image: url(icon-linkedin.svg);
+ }
+
+ .icon.i-medium {
+   -webkit-mask-image: url(icon-medium.svg);
+   mask-image: url(icon-medium.svg);
+ }
+
+ .icon.i-pen {
+   -webkit-mask-image: url(icon-pen.svg);
+   mask-image: url(icon-pen.svg);
+ }
+
+ .icon.i-pen-square {
+   -webkit-mask-image: url(icon-pen-square.svg);
+   mask-image: url(icon-pen-square.svg);
+ }
+
+ .icon.i-plus {
+   -webkit-mask-image: url(icon-plus.svg);
+   mask-image: url(icon-plus.svg);
+ }
+
+ .icon.i-github {
+   -webkit-mask-image: url(icon-github.svg);
+   mask-image: url(icon-github.svg);
+ }
+
+ .icon.i-reddit {
+   -webkit-mask-image: url(icon-reddit.svg);
+   mask-image: url(icon-reddit.svg);
+ }
+
+ .icon.i-tiktok {
+   -webkit-mask-image: url(icon-tiktok.svg);
+   mask-image: url(icon-tiktok.svg);
+ }
+
+ .icon.i-trash {
+   -webkit-mask-image: url(icon-trash.svg);
+   mask-image: url(icon-trash.svg);
+ }
+
+ .icon.i-tumblr {
+   -webkit-mask-image: url(icon-tumblr.svg);
+   mask-image: url(icon-tumblr.svg);
+ }
+
+ .icon.i-twitter {
+   -webkit-mask-image: url(icon-twitter.svg);
+   mask-image: url(icon-twitter.svg);
+ }
+
+ .icon.i-whatsapp {
+   -webkit-mask-image: url(icon-whatsapp.svg);
+   mask-image: url(icon-whatsapp.svg);
+ }
+
+ .icon.i-wordpress {
+   -webkit-mask-image: url(icon-wordpress.svg);
+   mask-image: url(icon-wordpress.svg);
+ }
+
+ .icon.i-youtube {
+   -webkit-mask-image: url(icon-youtube.svg);
+   mask-image: url(icon-youtube.svg);
+ }

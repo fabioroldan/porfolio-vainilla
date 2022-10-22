@@ -1,0 +1,48 @@
+.percent-circle {
+  --r: 80;
+  --cx: 100;
+  --cy: 100;
+  --percentage: 0;
+  --fg-clr: var(--clr-accent);
+  --bg-clr: #bdbdbd44;
+
+  --PI: 3.14159;
+  --circumference: calc((var(--r) * 2) * var(--PI));
+  --circ-percent: calc(
+    (var(--circumference) / 100) * (100 - var(--percentage))
+  ); /*convert --percent to px*/
+
+  overflow: visible;
+  width: 120px;
+  height: 120px;
+/*   border: 1px solid black; */
+}
+
+.percent-circle circle {
+  r: var(--r);
+  fill: transparent;
+  stroke: #ececec;
+  cx: var(--cx);
+  cy: var(--cy);
+  stroke-width: 1rem;
+  stroke-linecap: round;
+  transform: rotateZ(-90deg);
+  transform-origin: center;
+}
+
+.percent-circle circle:nth-child(1) {
+  stroke: var(--bg-clr);
+}
+
+.percent-circle circle:nth-child(2) {
+  stroke-dasharray: var(--circumference);
+  stroke-dashoffset: var(--circ-percent);
+  stroke: var(--fg-clr);
+}
+
+.percent-circle text {
+  transform: translate(50%, 50%);
+  dominant-baseline: middle;
+  text-anchor: middle;
+  font-size: 2rem;
+}
