@@ -67,7 +67,7 @@ function updateIBUI() {
 
   let hoy = today();
 
-  let adminCreateBtn = `<button class="button secondary" id="create-red-soc-btn" ><i class="icon i-pen"></i></button>`;
+  let adminCreateBtn = `<button class="button secondary" id="create-red-soc-btn" ><i class="icon i-plus"></i></button>`;
   let adminDelBtn = ``;
   let social = redesSociales.reduce((acc, redSoc, i) => {
     return acc + `
@@ -76,7 +76,7 @@ function updateIBUI() {
              <i class="bi-${getDomainWithoutSuffix(redSoc)}"></i>
            </a>
           <input type="text" class="input input-text"  id="red-social-${i}" value="${redSoc}">
-          <button class="button secondary" id="del-red-soc-${i}" >❌</button>
+          <button class="button button-delete" id="del-red-soc-${i}" ><i class="icon i-trash"></i></button>
           </div>`;
   }, '');
 
@@ -205,7 +205,7 @@ function addRedSocUI() {
   $div.innerHTML = `
   <label>Nuevo link: </label>
   <input type="text" class="input input-text"  id="red-social-${i}" >
-  <button class="button secondary" id="${del_id}" >❌</button> `;
+  <button class="button button-delete" id="${del_id}" ><i class="icon i-trash"></i></button> `;
   $socialFormCtn.prepend($div);
   document.getElementById(del_id).addEventListener('click', e => {
     let id = e.currentTarget.id.slice(12);
